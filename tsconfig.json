@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "baseUrl": "./src",
+        "paths": {
+            "@Entity": ["./Entities/index.ts"],
+            "@Feature": ["./Features/index.ts"],
+            "@Repository": ["./Repositories/index.ts"],
+            "@Util": ["./Utils/index.ts"],
+            "@Application": ["./Application/index.ts"],
+            "@Error": ["./Errors/index.ts"]
+        },
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    }
+}
